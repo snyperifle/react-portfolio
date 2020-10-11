@@ -13,5 +13,5 @@ app.get('*', (req, res) => {
 app.set('port', port);
 
 app.listen(port, () => {
-   console.log('Server is up!');
+   console.log(`Server running on port ${port}`);
 });
