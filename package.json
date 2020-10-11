@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "node server",
-    "heroku-postbuild": "react-scripts start",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
     "server": "node-env-run server --exec nodemon",
     "app": "run-p server start",
     "build": "react-scripts build",
