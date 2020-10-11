@@ -12,18 +12,16 @@ function App() {
         <Header className="header-color" title="Maverick Acampado" scroll>
           <Navigation>
             <Link to="/">Home</Link>
-            <Link to="/resume">Resume</Link>
+            {/* <Link to="/resume">Resume</Link> */}
             <Link to="/projects">Portfolio</Link>
-            <Link to="/contact">Contact</Link>
             <Link to="/about">About Me</Link>
           </Navigation>
         </Header>
         <Drawer title="Maverick Acampado">
           <Navigation>
             <Link to="/">Home</Link>
-            <Link to="/resume">Resume</Link>
+            {/* <Link to="/resume">Resume</Link> */}
             <Link to="/projects">Portfolio</Link>
-            <Link to="/contact">Contact</Link>
             <Link to="/about">About Me</Link>
           </Navigation>
         </Drawer>

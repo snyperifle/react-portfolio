@@ -20,11 +20,11 @@ class Landing extends Component {
                         <hr />
                         <div className ="social">
                             {/* GitHub */}
-                            <a href="https://github.com/mugen430" target="_blank"> 
+                            <a href="https://github.com/mugen430" target="blank"> 
                             <i className="fa fa-github"></i>
                             </a>
                             {/* linkedIN */}
-                            <a href="https://www.linkedin.com/in/maverick-acampado-765a171a8/" target="_blank"> 
+                            <a href="https://www.linkedin.com/in/maverick-acampado-765a171a8/" target="blank"> 
                             <i className="fa fa-linkedin"></i>
                             </a>
                         </div>
